@@ -1,0 +1,211 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:2:1-44:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e968b7524a6b794872ab644fee36a27d/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/80f07f8b74f8cb6669872d790c31d271/play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/287346e905cd20ad06ee512960ac8325/play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:2:1-44:12
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:2:1-44:12
+		INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:2:1-44:12
+		INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:11:22-78
+application
+ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:13:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e968b7524a6b794872ab644fee36a27d/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e968b7524a6b794872ab644fee36a27d/play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/80f07f8b74f8cb6669872d790c31d271/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/80f07f8b74f8cb6669872d790c31d271/play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/287346e905cd20ad06ee512960ac8325/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/287346e905cd20ad06ee512960ac8325/play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:16:9-41
+	android:roundIcon
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:17:9-54
+	android:icon
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:19:9-40
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:29:9-31:55
+	android:value
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:31:13-52
+	android:name
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:30:13-58
+activity#com.example.faketaxsi.MapsActivity
+ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:33:9-41:20
+	android:label
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:35:13-56
+	android:name
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:34:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:36:13-40:29
+action#android.intent.action.MAIN
+ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:37:17-69
+	android:name
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:37:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:39:27-74
+uses-sdk
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e968b7524a6b794872ab644fee36a27d/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e968b7524a6b794872ab644fee36a27d/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/80f07f8b74f8cb6669872d790c31d271/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/80f07f8b74f8cb6669872d790c31d271/play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/287346e905cd20ad06ee512960ac8325/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/287346e905cd20ad06ee512960ac8325/play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/df9a84c4655b7cf6fd3ecff2821fd9d3/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/a44642c3bddc1cd9ae77529ce5394be3/appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/3d66247cb3e229dc7753f5f4d3b35b4b/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/7ae8c1d65b7331eeb350edf91287a16c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/de3b4aff63e255359d6d83ac6fbdaff5/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/b96b3435fb358bdd7f04f1152639314c/activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/bf0848ee243e36dc13961016c6f63543/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/9572194aa98bde0ee13f87e0985824cf/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/2dfde23a071269bfc073d57af77f7873/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/7f6c41cc2a14c0fbaa8d0166c17dc544/core-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/fb37b7f790edcc9d7fe6d3e5314b8c56/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/9a29ee90fd211f611caccd9d338a3e44/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1bd2f6a321d0549948d7f1edb5f036d6/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/55566c395264c409f125230efea7fd76/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f031147607d3aeb238f176a00d5e308c/savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/2d1f640c1b4beb33089ff5c91bbd7f31/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e7284bace20bec096294b5474e153fbf/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/c073c929da6ad4e112abaac7d3212747/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e72949b043b8df7a6068dab5e7cd21f2/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+		ADDED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+		INJECTED from /home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
