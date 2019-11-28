@@ -1,4 +1,4 @@
-#Wed Nov 27 18:40:26 EET 2019
+#Thu Nov 28 17:57:11 EET 2019
 base.0=/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

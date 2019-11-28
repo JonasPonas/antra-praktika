@@ -135,8 +135,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 //txtLocation.setText(String.format(Locale.US, "%s -- %s", wayLatitude, wayLongitude));
                 Toast.makeText(this, "Location " + wayLatitude + " " + wayLongitude, Toast.LENGTH_SHORT).show();
 
-                //userLocation = new LatLng(wayLatitude, wayLongitude);
-                userLocation = new LatLng(54.739010f, 25.226059f);
+                userLocation = new LatLng(wayLatitude, wayLongitude);
+                //userLocation = new LatLng(54.739010f, 25.226059f);
                 //mMap.addMarker(new MarkerOptions().position(userLocation).title("Current"));
                 mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(userLocation, 16));
             }
@@ -155,7 +155,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void mapClicked(){
-        calcRoute();
+        if(userLocation != null)
+            calcRoute();
     }
 
     private void calcRoute(){
@@ -171,7 +172,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 (routingError, routes) -> {
                     if (routingError == null) {
                         Route route = routes.get(0);
-                        //showRouteDetails(route);
+                        showRouteDetails(route);
                         drawPolyline(route);
                     } else {
                         Log.d(TAG, routingError.toString());
@@ -202,5 +203,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         // Drawing polyline in the Google Map for the i-th route
         mMap.addPolyline(lineOptions);
+    }
+
+    private void showRouteDetails(Route route){
+        Toast.makeText(this, "Distance " + route.getLengthInMeters() + "m", Toast.LENGTH_LONG).show();
     }
 }
