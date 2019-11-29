@@ -3,13 +3,19 @@ package com.example.faketaxsi;
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
+import androidx.transition.Fade;
+import androidx.transition.Transition;
+import androidx.transition.TransitionManager;
 
 import android.Manifest;
-import android.app.ProgressDialog;
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -23,8 +29,9 @@ import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.google.android.gms.maps.model.Polyline;
 import com.google.android.gms.maps.model.PolylineOptions;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 import com.here.sdk.core.GeoCoordinates;
 import com.here.sdk.core.GeoPolyline;
 import com.here.sdk.core.errors.EngineInstantiationException;
@@ -41,6 +48,9 @@ import java.util.List;
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private final String TAG = "Pagrindinis";
+
+    private ViewGroup mainLayout;
+    private ViewGroup extraInfo;
 
     private int locationRequestCode = 1000;
     private double wayLatitude = 0.0, wayLongitude = 0.0;
@@ -71,6 +81,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         } catch (EngineInstantiationException e) {
             new RuntimeException("Initialization of RoutingEngine failed: " + e.error.name());
         }
+
+        mainLayout = findViewById(R.id.mainLayout);
+        extraInfo = findViewById(R.id.extraInfo);
+
+        FloatingActionButton fab = findViewById(R.id.fab);
+        fab.setOnClickListener(view -> Snackbar.make(view, "Here's a Snackbar", Snackbar.LENGTH_LONG)
+                .setAction("Action", null).show());
     }
 
 
@@ -90,9 +107,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setOnMapClickListener(point -> {
             // TODO Auto-generated method stub
             mMap.clear();
-            destinationMarker = mMap.addMarker(new MarkerOptions().position(point));
-            destLocation = destinationMarker.getPosition();
-            mapClicked();
+            mapClicked(point);
         });
         destinationMarker = null;
 
@@ -154,9 +169,23 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         return false;
     }
 
-    private void mapClicked(){
-        if(userLocation != null)
+    private void mapClicked(LatLng point){
+        destinationMarker = mMap.addMarker(new MarkerOptions().position(point));
+        destLocation = destinationMarker.getPosition();
+        toggle();
+
+        if(userLocation != null) {
             calcRoute();
+        }
+    }
+
+    private void toggle() {
+        Transition transition = new Fade(Fade.IN);
+        transition.setDuration(6000);
+        transition.addTarget(R.id.extraInfo);
+
+        TransitionManager.beginDelayedTransition(mainLayout, transition);
+        extraInfo.setVisibility(View.VISIBLE);
     }
 
     private void calcRoute(){
@@ -206,6 +235,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void showRouteDetails(Route route){
-        Toast.makeText(this, "Distance " + route.getLengthInMeters() + "m", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Distance: " + route.getLengthInMeters() + "m Time: " + route.getBaseTimeInSeconds() + "s" , Toast.LENGTH_LONG).show();
     }
 }
