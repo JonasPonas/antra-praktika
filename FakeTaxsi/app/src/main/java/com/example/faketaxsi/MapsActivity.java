@@ -2,33 +2,20 @@ package com.example.faketaxsi;
 
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
-import androidx.core.view.ViewCompat;
-import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.FragmentActivity;
-import androidx.transition.AutoTransition;
-import androidx.transition.ChangeBounds;
-import androidx.transition.Fade;
-import androidx.transition.Slide;
-import androidx.transition.Transition;
-import androidx.transition.TransitionManager;
-import androidx.transition.Visibility;
 
 import android.Manifest;
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
 import android.os.Handler;
-import android.os.Looper;
 import android.os.SystemClock;
 import android.util.Log;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.animation.AnimationUtils;
-import android.view.animation.Interpolator;
 import android.view.animation.LinearInterpolator;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -89,7 +76,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private long start;
     private static LinearInterpolator interpolator;
 
-    public int currentPoint = 0;
+    private int currentPoint = 0;
     private boolean letsMove = false;
     private boolean lastAlert = false;
     private boolean loggedIn = false;
@@ -154,7 +141,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         });
     }
 
-
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
@@ -200,7 +186,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }, 3000);
     }
 
-    public void checkPremission(){
+    private void checkPremission(){
         // check permission
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
                 && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
@@ -216,24 +202,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
-        switch (requestCode) {
-            case 1000: {
-                // If request is cancelled, the result arrays are empty.
-                if (grantResults.length > 0
-                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
-                    getLocation();
-                } else {
-                    Toast.makeText(this, "Permission denied", Toast.LENGTH_SHORT).show();
-                }
-                break;
+        if (requestCode == 1000) {
+            // If request is cancelled, the result arrays are empty.
+            if (grantResults.length > 0
+                    && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                getLocation();
+            } else {
+                Toast.makeText(this, "Permission denied", Toast.LENGTH_SHORT).show();
             }
         }
     }
-    public void getLocation(){
+    private void getLocation(){
         mFusedLocationClient.getLastLocation().addOnSuccessListener(this, location -> {
             if (location != null) {
                 userLocation = new LatLng(location.getLatitude(), location.getLongitude());
-                Toast.makeText(this, "Location: " + userLocation, Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Location: " + userLocation, Toast.LENGTH_SHORT).show();
                 mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(userLocation, 16));
             }
         });
@@ -253,7 +236,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private void mapClicked(LatLng point){
         destinationMarker = mMap.addMarker(new MarkerOptions().position(point));
         destLocation = destinationMarker.getPosition();
-        //toggle();
 
         if(userLocation != null) {
             calcRoute(userLocation, destLocation, true);
@@ -289,8 +271,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         double dist = distanceAtoB(points.get(currentPoint+1), intermediatePosition);
         if(lastDist == 0)
             lastDist = dist;
-
-        //Log.v("inform", "Dist: " + dist + " LastDist: " + lastDist);
+        
         if(dist > lastDist) {
             taxiMarker.setPosition(points.get(currentPoint+1));
             currentPoint++;
@@ -304,7 +285,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         if(currentPoint+1 >= points.size()) {
             letsMove = false;
-            carArrivedToUser();
+            userDialogs();
             lastAlert = true;
         }
     }
@@ -362,8 +343,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             LatLng position = new LatLng(pos.latitude, pos.longitude);
             points.add(position);
         }
-
-        //Log.v("inform", "End: " + points.get(points.size()-1));
+        
         lineOptions.addAll(points);
         lineOptions.width(12);
         lineOptions.color(cl);
@@ -391,17 +371,17 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //Toast.makeText(this, "Distance: " + route.getLengthInMeters() + "m Time: " + route.getBaseTimeInSeconds() + "s" , Toast.LENGTH_LONG).show();
     }
 
-    private void carArrivedToUser(){
+    private void userDialogs(){
 
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
         // set dialog message
         if(!lastAlert){
             alertDialogBuilder
                     .setTitle("Car Arrived!")
-                    .setMessage(new DriverReader(currentDriver).getDriverData())
+                    .setMessage(new MainReader(new DriverReader(currentDriver), new CarReader(currentDriver.getCar())).getData())
                     .setCancelable(false)
                     .setPositiveButton("Lets Roll!", (dialog, id) -> {
-                        goToDestination();
+                        moveMarker(pointsA);
                         dialog.cancel();
                     }).create().show();}
         else{
@@ -418,10 +398,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                         dialog.cancel();
                     }).create().show();
         }
-    }
-
-    private void goToDestination(){
-        moveMarker(pointsA);
     }
 
     private void savehistory(){

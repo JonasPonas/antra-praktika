@@ -2,34 +2,51 @@ package com.example.faketaxsi;
 
 import java.util.ArrayList;
 
-public class DriverReader {
-    private Driver driver;
-    private CarReader carReader;
+class MainReader{
+    private IReader driver;
+    private IReader vehicle;
 
-    public DriverReader(Driver driver){
+    public MainReader(IReader driver, IReader vehicle){
         this.driver = driver;
-        carReader = new CarReader(driver.getCar());
+        this.vehicle = vehicle;
     }
 
-    public String getDriverData(){
-        String data = new String();
-        data += "Name: " + driver.getName() + "\n";
-        data += "Surname: " + driver.getSurname() + "\n\n";
-        for(String str : carReader.getCarData())
+    public String getData(){
+        String data = "";
+        for(String str : driver.getData())
+            data += str;
+        for(String str : vehicle.getData())
             data += str;
 
         return data;
     }
 }
 
-class CarReader {
+class DriverReader implements IReader {
+    private Driver driver;
+
+    public DriverReader(Driver driver){
+        this.driver = driver;
+    }
+
+    public ArrayList<String> getData(){
+        ArrayList<String> data = new ArrayList<>();
+        data.add("Name: " + driver.getName() + "\n");
+        data.add("Surname: " + driver.getSurname() + "\n\n");
+
+        return data;
+    }
+}
+
+class CarReader implements IReader {
     private Car car;
 
     public CarReader(Car car){
         this.car = car;
     }
 
-    public ArrayList<String> getCarData(){
+    @Override
+    public ArrayList<String> getData(){
         ArrayList<String> data = new ArrayList<>();
         data.add("Number: " + car.getNumber() + "\n");
         data.add("Make: " + car.getMake() + " " + car.getModel() + "\n");
@@ -37,4 +54,8 @@ class CarReader {
 
         return data;
     }
+}
+
+interface IReader{
+    ArrayList<String> getData();
 }

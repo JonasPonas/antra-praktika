@@ -7,8 +7,6 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.example.faketaxsi.Driver;
-
 /**
  * Created by ProgrammingKnowledge on 4/3/2015.
  */

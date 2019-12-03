@@ -1,6 +1,5 @@
 package com.example.faketaxsi.Database;
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -34,23 +33,11 @@ public class DatabaseInit extends DatabaseHelper {
         StringBuffer buffer = new StringBuffer();
         for(int i=0;i<res.getCount();i++) {
             if(res.moveToNext()) {
-                for(int j=0;j<9;j++) {
-                    String str = res.getString(j);
-                    if(str != null)
-                        buffer.append(str + "\n");
-                    else break;
-                }
-                buffer.append("\n\n");
-
-                //patiekalai.add(new Patiekalas(res.getString(1), Float.valueOf(res.getString(2)),
-                        //res.getString(3), res.getString(4), res.getInt(5)));
                 drivers.add(new Driver(res.getString(1), res.getString(2),
                         res.getString(5), res.getString(6), res.getString(7), res.getString(8)));
             }
         }
 
-        // Show all data
-        //showMessage("Data",buffer.toString());
         return drivers;
     }
 
@@ -89,14 +76,6 @@ public class DatabaseInit extends DatabaseHelper {
             else
                 Log.v("Inform", "Data NOT Inserted");
         }
-    }
-
-    public void showMessage(String title,String Message){
-        AlertDialog.Builder builder = new AlertDialog.Builder(context);
-        builder.setCancelable(true);
-        builder.setTitle(title);
-        builder.setMessage(Message);
-        builder.show();
     }
 
     public void populateDatabase(){
