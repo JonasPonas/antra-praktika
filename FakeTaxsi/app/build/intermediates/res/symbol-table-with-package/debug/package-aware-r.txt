@@ -27,6 +27,7 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim rotate
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1106,6 +1107,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable ic_autorenew
 drawable ic_check_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1129,6 +1131,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable taxi_icon
+drawable taxi_icon2
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -1230,10 +1234,15 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id dist
+id dur
 id edit_query
 id end
 id enterAlways
 id enterAlwaysCollapsed
+id est_dist
+id est_dur
+id est_price
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1269,6 +1278,8 @@ id line1
 id line3
 id listMode
 id list_item
+id logIn
+id mainH
 id mainLayout
 id map
 id masked
@@ -1285,6 +1296,7 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id nr
 id off
 id on
 id outline
@@ -1295,6 +1307,7 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
+id price
 id progress_circular
 id progress_horizontal
 id radio
@@ -1359,9 +1372,6 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
-id textView
-id textView2
-id textView3
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1444,6 +1454,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_history
 layout activity_maps
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -1460,6 +1471,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout history_example
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

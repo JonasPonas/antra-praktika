@@ -9,27 +9,29 @@
 8-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
 9-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml
-10
-11    <!--
-12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
-13         Google Maps Android API v2, but you must specify either coarse or fine
-14         location permissions for the 'MyLocation' functionality.
-15    -->
-16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:11:5-79
-16-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:11:22-76
-17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:12:5-81
-17-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:12:22-78
-18    <uses-permission android:name="android.permission.INTERNET" />
-18-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:13:5-67
-18-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:13:22-64
-19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-19-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:14:5-80
-19-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:14:22-77
-20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-20-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:15:5-81
-20-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:15:22-78
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the 'MyLocation' functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:10:5-79
+15-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:11:5-81
+16-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:11:22-78
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:12:5-67
+17-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:12:22-64
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:13:5-80
+18-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:13:22-77
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:14:5-81
+19-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:14:22-78
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:15:5-78
+20-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:15:22-75
 21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 21-->[heresdk-lite-android-4.1.2.0.793.aar] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f731dc89582649c575d3acb28b537db8/jetified-heresdk-lite-android-4.1.2.0.793/AndroidManifest.xml:11:5-79
 21-->[heresdk-lite-android-4.1.2.0.793.aar] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f731dc89582649c575d3acb28b537db8/jetified-heresdk-lite-android-4.1.2.0.793/AndroidManifest.xml:11:22-76
@@ -42,7 +44,7 @@
 25-->[com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 26
 27    <application
-27-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:17:5-49:19
+27-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:17:5-56:19
 28        android:allowBackup="true"
 28-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:18:9-35
 29        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -59,84 +61,90 @@
 35        android:testOnly="true"
 36        android:theme="@style/AppTheme" >
 36-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:23:9-40
-37
-38        <!--
-39             The API key for Google Maps-based APIs is defined as a string resource.
-40             (See the file "res/values/google_maps_api.xml").
-41             Note that the API key is linked to the encryption key used to sign the APK.
-42             You need a different API key for each encryption key, including the release key that is used to
-43             sign the APK for publishing.
-44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-45        -->
-46        <meta-data
-46-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:34:9-108
-47            android:name="com.google.android.geo.API_KEY"
-47-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:34:20-65
-48            android:value="@string/google_maps_key" />
-48-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:34:66-105
+37        <activity
+37-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:25:9-27:20
+38            android:name="com.example.faketaxsi.HistoryActivity"
+38-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:25:19-50
+39            android:label="History" >
+39-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:26:13-36
+40        </activity>
+41        <!--
+42             The API key for Google Maps-based APIs is defined as a string resource.
+43             (See the file "res/values/google_maps_api.xml").
+44             Note that the API key is linked to the encryption key used to sign the APK.
+45             You need a different API key for each encryption key, including the release key that is used to
+46             sign the APK for publishing.
+47             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+48        -->
 49        <meta-data
-49-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:36:9-103
-50            android:name="com.here.sdk.access_key_id"
-50-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:36:20-61
-51            android:value="YWW0whSZFBM20zG1SBY_8g" />
-51-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:36:62-100
+49-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:36:9-38:55
+50            android:name="com.google.android.geo.API_KEY"
+50-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:37:13-58
+51            android:value="@string/google_maps_key" />
+51-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:38:13-52
 52        <meta-data
-52-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:37:9-171
-53            android:name="com.here.sdk.access_key_secret"
-53-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:37:20-65
-54            android:value="q0vxpraZzhMNWktKk4F5fXdOzrgxBCiXN-UL5tJkDT2tv938cP2liODL0IM-_zPhqHPPop_eG5903U6pZJyFnA" />
-54-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:37:66-168
-55
-56        <activity
-56-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:39:9-48:20
-57            android:name="com.example.faketaxsi.MapsActivity"
-57-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:40:13-41
-58            android:label="@string/title_activity_maps"
-58-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:41:13-56
-59            android:theme="@style/AppTheme.NoActionBar" >
-59-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:42:13-56
-60            <intent-filter>
-60-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:43:13-47:29
-61                <action android:name="android.intent.action.MAIN" />
-61-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:44:17-69
-61-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:44:25-66
-62
-63                <category android:name="android.intent.category.LAUNCHER" />
-63-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:46:17-77
-63-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:46:27-74
-64            </intent-filter>
-65        </activity>
-66
-67        <provider
-67-->[heresdk-lite-android-4.1.2.0.793.aar] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f731dc89582649c575d3acb28b537db8/jetified-heresdk-lite-android-4.1.2.0.793/AndroidManifest.xml:17:9-20:40
-68            android:name="com.here.sdk.engine.InitProvider"
-68-->[heresdk-lite-android-4.1.2.0.793.aar] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f731dc89582649c575d3acb28b537db8/jetified-heresdk-lite-android-4.1.2.0.793/AndroidManifest.xml:18:13-60
-69            android:authorities="com.example.faketaxsi.com.here.sdk.engine.InitProvider"
-69-->[heresdk-lite-android-4.1.2.0.793.aar] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f731dc89582649c575d3acb28b537db8/jetified-heresdk-lite-android-4.1.2.0.793/AndroidManifest.xml:19:13-84
-70            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
-70-->[heresdk-lite-android-4.1.2.0.793.aar] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f731dc89582649c575d3acb28b537db8/jetified-heresdk-lite-android-4.1.2.0.793/AndroidManifest.xml:20:13-37
-71        <uses-library
-71-->[com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-72            android:name="org.apache.http.legacy"
-72-->[com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-73            android:required="false" />
-73-->[com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-74
-75        <activity
-75-->[com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-76-->[com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-77            android:exported="false"
-77-->[com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-78-->[com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-79
-80        <meta-data
-80-->[com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-81            android:name="com.google.android.gms.version"
-81-->[com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-82            android:value="@integer/google_play_services_version" />
-82-->[com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-83    </application>
-84
-85</manifest>
+52-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:39:9-41:54
+53            android:name="com.here.sdk.access_key_id"
+53-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:40:13-54
+54            android:value="YWW0whSZFBM20zG1SBY_8g" />
+54-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:41:13-51
+55        <meta-data
+55-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:42:9-44:118
+56            android:name="com.here.sdk.access_key_secret"
+56-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:43:13-58
+57            android:value="q0vxpraZzhMNWktKk4F5fXdOzrgxBCiXN-UL5tJkDT2tv938cP2liODL0IM-_zPhqHPPop_eG5903U6pZJyFnA" />
+57-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:44:13-115
+58
+59        <activity
+59-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:46:9-55:20
+60            android:name="com.example.faketaxsi.MapsActivity"
+60-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:47:13-41
+61            android:label="@string/title_activity_maps"
+61-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:48:13-56
+62            android:theme="@style/AppTheme.NoActionBar" >
+62-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:49:13-56
+63            <intent-filter>
+63-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:50:13-54:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:51:17-69
+64-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:51:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:53:17-77
+66-->/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/AndroidManifest.xml:53:27-74
+67            </intent-filter>
+68        </activity>
+69
+70        <provider
+70-->[heresdk-lite-android-4.1.2.0.793.aar] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f731dc89582649c575d3acb28b537db8/jetified-heresdk-lite-android-4.1.2.0.793/AndroidManifest.xml:17:9-20:40
+71            android:name="com.here.sdk.engine.InitProvider"
+71-->[heresdk-lite-android-4.1.2.0.793.aar] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f731dc89582649c575d3acb28b537db8/jetified-heresdk-lite-android-4.1.2.0.793/AndroidManifest.xml:18:13-60
+72            android:authorities="com.example.faketaxsi.com.here.sdk.engine.InitProvider"
+72-->[heresdk-lite-android-4.1.2.0.793.aar] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f731dc89582649c575d3acb28b537db8/jetified-heresdk-lite-android-4.1.2.0.793/AndroidManifest.xml:19:13-84
+73            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+73-->[heresdk-lite-android-4.1.2.0.793.aar] /home/Jonas/.gradle/caches/transforms-2/files-2.1/f731dc89582649c575d3acb28b537db8/jetified-heresdk-lite-android-4.1.2.0.793/AndroidManifest.xml:20:13-37
+74        <uses-library
+74-->[com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+75            android:name="org.apache.http.legacy"
+75-->[com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+76            android:required="false" />
+76-->[com.google.android.gms:play-services-maps:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/1b9026f860ab6935418a182675a0a44a/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+77
+78        <activity
+78-->[com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/e91790921c910b5c0de2045e813ad59c/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+82
+83        <meta-data
+83-->[com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+84            android:name="com.google.android.gms.version"
+84-->[com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+85            android:value="@integer/google_play_services_version" />
+85-->[com.google.android.gms:play-services-basement:17.0.0] /home/Jonas/.gradle/caches/transforms-2/files-2.1/689477a9cb0f21da8e1092dcb76d97ac/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+86    </application>
+87
+88</manifest>

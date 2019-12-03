@@ -456,6 +456,10 @@
         "source": "/home/Jonas/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/res/drawable/abc_btn_check_material_anim.xml"
     },
     {
+        "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/anim_rotate.xml.flat",
+        "source": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/res/anim/rotate.xml"
+    },
+    {
         "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/home/Jonas/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
@@ -550,6 +554,10 @@
     {
         "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/home/Jonas/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/drawable_ic_autorenew.xml.flat",
+        "source": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/res/drawable/ic_autorenew.xml"
     },
     {
         "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat",
@@ -722,6 +730,10 @@
     {
         "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat",
         "source": "/home/Jonas/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/layout_history_example.xml.flat",
+        "source": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/res/layout/history_example.xml"
     },
     {
         "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_design_ic_visibility.png.flat",
@@ -1216,6 +1228,10 @@
         "source": "/home/Jonas/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/drawable_taxi_icon.png.flat",
+        "source": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/res/drawable/taxi_icon.png"
+    },
+    {
         "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "/home/Jonas/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
@@ -1322,6 +1338,10 @@
     {
         "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat",
         "source": "/home/Jonas/.gradle/caches/transforms-2/files-2.1/f5bdf8930f5b0dade80802408310dda6/appcompat-1.1.0/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/layout_activity_history.xml.flat",
+        "source": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/res/layout/activity_history.xml"
     },
     {
         "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -1586,6 +1606,10 @@
     {
         "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/layout_mtrl_layout_snackbar.xml.flat",
         "source": "/home/Jonas/.gradle/caches/transforms-2/files-2.1/9ee5da6fca20f6f07dce6c73fc4ca33a/material-1.0.0/res/layout/mtrl_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/drawable_taxi_icon2.png.flat",
+        "source": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/src/main/res/drawable/taxi_icon2.png"
     },
     {
         "merged": "/home/Jonas/AndroidStudioProjects/FakeTaxsi/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",

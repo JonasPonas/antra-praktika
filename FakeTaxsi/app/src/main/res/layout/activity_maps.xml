@@ -13,14 +13,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/extraInfo"
-        android:layout_marginTop="0dp" />
+        android:layout_alignParentBottom="true"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/extraInfo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#9FE6ED"
-        android:visibility="gone">
+        android:background="#9FE6ED">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fab"
@@ -33,11 +32,10 @@
             app:srcCompat="@drawable/ic_taxi" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/est_price"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
             android:text="Estimated price: ?Eur"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -46,28 +44,37 @@
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/est_dur"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:text="Duration: ?min"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/textView"
-            app:layout_constraintTop_toBottomOf="@+id/textView"
+            app:layout_constraintStart_toStartOf="@+id/est_price"
+            app:layout_constraintTop_toBottomOf="@+id/est_price"
             app:layout_constraintVertical_bias="0.0" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/est_dist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
             android:layout_marginBottom="8dp"
-            android:text="Distance: ?km"
+            android:text="Distance: ?m"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/textView2"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+            app:layout_constraintStart_toStartOf="@+id/est_dur"
+            app:layout_constraintTop_toBottomOf="@+id/est_dur" />
+
+        <Button
+            android:id="@+id/logIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="Log In"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fab"
+            app:layout_constraintTop_toTopOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
